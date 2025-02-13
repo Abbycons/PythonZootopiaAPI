@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Lion",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata"
+    },
+    "locations": ["Africa"],
+    "characteristics": {
+      "diet": "Carnivore",
+      "lifespan": "10-14 years"
+    }
+  }
+]
