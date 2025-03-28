@@ -1,9 +1,73 @@
+<html>
+    <head>
+        <style>
+        @gray-darker:               #444444;
+        @gray-dark:                 #696969;
 
-        <html>
-        <head><title>Animal Information</title></head>
-        <body>
-            <h1>Results for "lion"</h1>
-            <h2>Cape Lion</h2><p><strong>Scientific Name:</strong> Panthera leo melanochaitus</p><p><strong>Habitat:</strong> plains</p><p><strong>Diet:</strong> Carnivore</p><p><strong>Top Speed:</strong> 48 mph</p><h2>Golden Lion Tamarin</h2><p><strong>Scientific Name:</strong> Leontopithecus rosalia</p><p><strong>Habitat:</strong> Lowland tropical forest</p><p><strong>Diet:</strong> Omnivore</p><p><strong>Top Speed:</strong> 24 mph</p><h2>Lion</h2><p><strong>Scientific Name:</strong> Panthera leo</p><p><strong>Habitat:</strong> open woodland, scrub, grassland</p><p><strong>Diet:</strong> Carnivore</p><p><strong>Top Speed:</strong> 35 mph</p><h2>Lion’s Mane Jellyfish</h2><p><strong>Scientific Name:</strong> Cyanea capillata</p><p><strong>Habitat:</strong> Cooler ocean waters</p><p><strong>Diet:</strong> Carnivore</p><p><strong>Top Speed:</strong> Unknown</p><h2>Lionfish</h2><p><strong>Scientific Name:</strong> Pterois volitans</p><p><strong>Habitat:</strong> Tropical reefs and rocky crevices</p><p><strong>Diet:</strong> Carnivore</p><p><strong>Top Speed:</strong> Unknown</p><h2>Mountain Lion</h2><p><strong>Scientific Name:</strong> Felis Concolor</p><p><strong>Habitat:</strong> Forest and mountainous regions</p><p><strong>Diet:</strong> Carnivore</p><p><strong>Top Speed:</strong> 30 mph</p><h2>Sea Lion</h2><p><strong>Scientific Name:</strong> Otariidae</p><p><strong>Habitat:</strong> Coastal waters and rocky shorelines</p><p><strong>Diet:</strong> Omnivore</p><p><strong>Top Speed:</strong> 27 mph</p>
-        </body>
-        </html>
-        
+@Zane Gray
+:                      #999999;
+        @gray-light:                #CCCCCC;
+        @gray-lighter:              #ECECEC;
+        @gray-lightest:             lighten(@gray-lighter,4%);
+        html {
+          background-color: #FFE9E9;
+        }
+        h1 {
+            text-align: center;
+            font-size: 40pt;
+            font-weight: normal;
+        }
+        body {
+          font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          letter-spacing: 0;
+          padding: 1rem;
+          text-rendering: optimizeLegibility;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          -moz-font-feature-settings: "liga" on;
+          width: 900px;
+          margin: auto;
+        }
+        .cards {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+        }
+        .cards__item {
+          background-color: white;
+          border-radius: 0.25rem;
+          box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+          overflow: hidden;
+          padding: 1rem;
+          margin: 50px;
+        }
+        .card__title {
+          color: @gray-dark;
+          font-size: 1.25rem;
+          font-weight: 300;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+        }
+        .card__text {
+          flex: 1 1 auto;
+          font-size: 0.95rem;
+          line-height: 2;
+          margin-bottom: 1.25rem;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>My Animal Repository</h1>
+        <ul class="cards">
+            <div class='cards__item'><h2 class='card__title'>American Foxhound</h2><div class='card__text'><p><strong>Scientific Name:</strong> Canis lupus</p><p><strong>Habitat:</strong> Unknown</p><p><strong>Diet:</strong> Omnivore</p><p><strong>Top Speed:</strong> Unknown</p></div></div><div class='cards__item'><h2 class='card__title'>Arctic Fox</h2><div class='card__text'><p><strong>Scientific Name:</strong> Vulpes lagopus</p><p><strong>Habitat:</strong> Polar forest regions</p><p><strong>Diet:</strong> Carnivore</p><p><strong>Top Speed:</strong> 30 mph</p></div></div><div class='cards__item'><h2 class='card__title'>Cross Fox</h2><div class='card__text'><p><strong>Scientific Name:</strong> Vulpes vulpes</p><p><strong>Habitat:</strong> Forests, prairies, deserts, mountains, cities, suburbs, tundra, scrub, near rivers, farms</p><p><strong>Diet:</strong> Carnivore</p><p><strong>Top Speed:</strong> 31 mph</p></div></div><div class='cards__item'><h2 class='card__title'>Darwin’s fox</h2><div class='card__text'><p><strong>Scientific Name:</strong> Lycalopex fulvipes</p><p><strong>Habitat:</strong> Temperate rainforests, shrubland</p><p><strong>Diet:</strong> Omnivore</p><p><strong>Top Speed:</strong> 45 mph</p></div></div><div class='cards__item'><h2 class='card__title'>English Foxhound</h2><div class='card__text'><p><strong>Scientific Name:</strong> Canis lupus</p><p><strong>Habitat:</strong> Unknown</p><p><strong>Diet:</strong> Omnivore</p><p><strong>Top Speed:</strong> Unknown</p></div></div><div class='cards__item'><h2 class='card__title'>Fennec Fox</h2><div class='card__text'><p><strong>Scientific Name:</strong> Vulpes zerda</p><p><strong>Habitat:</strong> Sandy and semi-arid desert</p><p><strong>Diet:</strong> Omnivore</p><p><strong>Top Speed:</strong> 25 mph</p></div></div><div class='cards__item'><h2 class='card__title'>Fox</h2><div class='card__text'><p><strong>Scientific Name:</strong> Vulpes vulpes</p><p><strong>Habitat:</strong> Woodland areas and urban parks</p><p><strong>Diet:</strong> Carnivore</p><p><strong>Top Speed:</strong> 29 mph</p></div></div><div class='cards__item'><h2 class='card__title'>Fox Snakes</h2><div class='card__text'><p><strong>Scientific Name:</strong> P. vulpinus and P. ramspotti</p><p><strong>Habitat:</strong> Unknown</p><p><strong>Diet:</strong> Carnivore</p><p><strong>Top Speed:</strong> Unknown</p></div></div><div class='cards__item'><h2 class='card__title'>Fox Squirrel</h2><div class='card__text'><p><strong>Scientific Name:</strong> Sciurus niger</p><p><strong>Habitat:</strong> Leaf nests and tree dens</p><p><strong>Diet:</strong> Omnivore</p><p><strong>Top Speed:</strong> 17 mph</p></div></div><div class='cards__item'><h2 class='card__title'>Fox Terrier</h2><div class='card__text'><p><strong>Scientific Name:</strong> Canis Lupus</p><p><strong>Habitat:</strong> Unknown</p><p><strong>Diet:</strong> Omnivore</p><p><strong>Top Speed:</strong> Unknown</p></div></div><div class='cards__item'><h2 class='card__title'>Golden-Crowned Flying Fox</h2><div class='card__text'><p><strong>Scientific Name:</strong> Acerodon jubatus</p><p><strong>Habitat:</strong> Caves and forests</p><p><strong>Diet:</strong> Herbivore</p><p><strong>Top Speed:</strong> Unknown</p></div></div><div class='cards__item'><h2 class='card__title'>Gray Fox</h2><div class='card__text'><p><strong>Scientific Name:</strong> Urocyon cinereoargenteus</p><p><strong>Habitat:</strong> Forests and plains</p><p><strong>Diet:</strong> Omnivore</p><p><strong>Top Speed:</strong> 28 mph</p></div></div><div class='cards__item'><h2 class='card__title'>Kit Fox</h2><div class='card__text'><p><strong>Scientific Name:</strong> Vulpes macrotis merriam</p><p><strong>Habitat:</strong> desert, grasslands</p><p><strong>Diet:</strong> Omnivore</p><p><strong>Top Speed:</strong> 25 mph</p></div></div><div class='cards__item'><h2 class='card__title'>Marble Fox</h2><div class='card__text'><p><strong>Scientific Name:</strong> Vulpes vulpes</p><p><strong>Habitat:</strong> Human captivity</p><p><strong>Diet:</strong> Omnivore</p><p><strong>Top Speed:</strong> 30 mph</p></div></div><div class='cards__item'><h2 class='card__title'>Red Fox</h2><div class='card__text'><p><strong>Scientific Name:</strong> Vulpes vulpes</p><p><strong>Habitat:</strong> Forests, grasslands, tundra, prairie, deserts, and mountains</p><p><strong>Diet:</strong> Omnivore</p><p><strong>Top Speed:</strong> 31 mph</p></div></div><div class='cards__item'><h2 class='card__title'>Smooth Fox Terrier</h2><div class='card__text'><p><strong>Scientific Name:</strong> Canis lupus</p><p><strong>Habitat:</strong> Unknown</p><p><strong>Diet:</strong> Omnivore</p><p><strong>Top Speed:</strong> Unknown</p></div></div><div class='cards__item'><h2 class='card__title'>Tibetan Fox</h2><div class='card__text'><p><strong>Scientific Name:</strong> Vulpes ferrilata</p><p><strong>Habitat:</strong> Tibetan Plateau</p><p><strong>Diet:</strong> Carnivore</p><p><strong>Top Speed:</strong> 44 mph</p></div></div><div class='cards__item'><h2 class='card__title'>Toy Fox Terrier</h2><div class='card__text'><p><strong>Scientific Name:</strong> Canis lupus</p><p><strong>Habitat:</strong> Unknown</p><p><strong>Diet:</strong> Omnivore</p><p><strong>Top Speed:</strong> Unknown</p></div></div><div class='cards__item'><h2 class='card__title'>Wire Fox Terrier</h2><div class='card__text'><p><strong>Scientific Name:</strong> Canis lupus</p><p><strong>Habitat:</strong> Unknown</p><p><strong>Diet:</strong> Omnivore</p><p><strong>Top Speed:</strong> Unknown</p></div></div>
+        </ul>
+    </body>
+</html>
+
+
+
+
+
+
